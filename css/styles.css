@@ -1,0 +1,231 @@
+
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Sections */
+
+.white-section {
+    background-color: #fff;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* TITLE SECTION */
+
+#title {
+    text-align: left;
+}
+
+
+#title .container-fluid {
+
+    padding: 2% 15% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.phone-img {
+
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+}
+
+
+
+/* FEATURES SECTION */
+
+#features {
+    padding: 8% 0;
+    position: relative;
+}
+
+
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#features p {
+    font-family: "Montserrat-Bold";
+    color: #8f8f8f;
+}
+
+
+#features span {
+    color: #ef8172;
+    padding-top: 4%;
+    margin-bottom: 2rem;
+}
+
+#features span:hover {
+    color: #ff4c68;
+}
+
+
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    background-color: #ef8172;
+    font-weight: bold;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 13%;
+    border-radius: 70%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 8% 15%;
+}
+
+/* PRESS SECTION */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+
+#press img {
+    width: 12%;
+}
+
+
+/* PRICING SECTION */
+
+
+
+.card-title {
+    font-size: 1.9rem;
+    font-weight: 540;
+}
+
+.card-subtitle {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.card-col {
+
+    padding: 3% 2%
+}
+
+.bt {
+    margin-top: 2.5rem;
+}
+
+
+
+/* CALL TO ACTION SECTION */
+
+.cta-btn {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* FOOTER SECTION */
+
+#footer {
+
+    background-color: #fff;
+}
+
+
+.social-btn {
+    margin: 2% 0.5%;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1028px) {
+
+    .phone-img {
+        position: static;
+        transform: none;
+        margin-left: 0;
+        width: 32%;
+    }
+
+    #title {
+
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 676px) {
+
+    .card-col {
+        margin: 2rem 0 2rem 0;
+    }
+}
